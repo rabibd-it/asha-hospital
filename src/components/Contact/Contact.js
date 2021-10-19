@@ -85,31 +85,31 @@ const Contact = () => {
                                         <div className="form-group mb-3">
                                             <input className="form-control" placeholder="Name" {...register("name", { required: true })} />
                                         </div>
-                                        {errors.name && <span>This field is required</span>}
+                                        {errors.name && <span className="text-danger w-100">This field is required</span>}
                                     </div>
                                     <div className="col-md-6">
                                         <div className="form-group mb-3">
                                             <input className="form-control" placeholder="Phone" {...register("phone", { required: true })} />
                                         </div>
-                                        {errors.phone && <span>This field is required</span>}
+                                        {errors.phone && <span className="text-danger w-100">This field is required</span>}
                                     </div>
                                     <div className="col-md-6">
                                         <div className="form-group mb-3">
                                             <input className="form-control" placeholder="Email" {...register("email", { required: true })} />
                                         </div>
-                                        {errors.email && <span>This field is required</span>}
+                                        {errors.email && <span className="text-danger w-100">This field is required</span>}
                                     </div>
                                     <div className="col-md-6">
                                         <div className="form-group mb-3">
                                             <input className="form-control" placeholder="Subject" {...register("subject", { required: true })} />
                                         </div>
-                                        {errors.subject && <span>This field is required</span>}
+                                        {errors.subject && <span className="text-danger w-100">This field is required</span>}
                                     </div>
                                     <div className="col-md-12">
                                         <div className="form-group mb-3">
                                             <textarea rows="12" className="form-control" placeholder="Message"  {...register("message", { required: true })}></textarea>
                                         </div>
-                                        {errors.message && <span>This field is required</span>}
+                                        {errors.message && <span className="text-danger w-100">This field is required</span>}
                                     </div>
                                     <div className="col-md-6">
                                         <button type="submit" className="btn btn-primary mb-3">Submit</button>
@@ -118,7 +118,7 @@ const Contact = () => {
                             </form>
                         </div>
                         <div className="col-12 col-lg-6">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1840.1323840026823!2d89.06890995810153!3d22.718398296276995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sShahid%20Kazol%20Sarani%2C%20Palaspole%2C%20Satkhira!5e0!3m2!1sen!2sbd!4v1634626483909!5m2!1sen!2sbd" width="100%" height="450" allowfullscreen="" loading="lazy"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1840.1323840026823!2d89.06890995810153!3d22.718398296276995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sShahid%20Kazol%20Sarani%2C%20Palaspole%2C%20Satkhira!5e0!3m2!1sen!2sbd!4v1634626483909!5m2!1sen!2sbd" width="100%" height="450" title="Asha General Hospital"></iframe>
                         </div>
                     </div>
                 </div>

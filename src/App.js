@@ -19,6 +19,8 @@ import Header from "./components/Shared/Header/Header";
 import NotFound from "./components/NotFound/NotFound";
 import AuthProvider from './context/AuthProvider';
 import DoctorDetail from './components/DoctorDetail/DoctorDetail';
+import UpdateProfile from './components/UpdateProfile/UpdateProfile';
+import Profile from './components/Profile/Profile';
 function App() {
   return (
     <AuthProvider>
@@ -57,6 +59,15 @@ function App() {
           <Route path="/register">
             <Register></Register>
           </Route>
+
+          <PrivateRoute path="/profile">
+            <Profile></Profile>
+          </PrivateRoute>
+
+          <PrivateRoute path="/profile-update">
+            <UpdateProfile></UpdateProfile>
+          </PrivateRoute>
+
 
           <Route path="/home">
             <Home></Home>

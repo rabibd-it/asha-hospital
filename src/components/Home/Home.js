@@ -154,7 +154,7 @@ const Home = () => {
                         <div className="col-12 col-lg-6">
                             <div className="row">
                                 <div className="col-12">
-                                    <div className="row why-choose-item d-flex align-items-start">
+                                    <div className="row why-choose-item d-flex align-items-start mb-2">
                                         <div className="icon col-lg-2">
                                             <i className="fa fa-headset"></i>
                                         </div>
@@ -166,7 +166,7 @@ const Home = () => {
                                 </div>
 
                                 <div className="col-12">
-                                    <div className="row why-choose-item d-flex align-items-start">
+                                    <div className="row why-choose-item d-flex align-items-start mb-2">
                                         <div className="icon col-lg-2">
                                             <i className="fa fa-user-md"></i>
                                         </div>
@@ -178,7 +178,7 @@ const Home = () => {
                                 </div>
 
                                 <div className="col-12">
-                                    <div className="row why-choose-item d-flex align-items-start">
+                                    <div className="row why-choose-item d-flex align-items-start mb-2">
                                         <div className="icon col-lg-2">
                                             <i className="fa fa-user"></i>
                                         </div>
@@ -190,7 +190,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-lg-6">
+                        <div className="col-12 col-lg-6 d-none d-lg-block">
                             <div className="why-choose-cover" style={{
                                 backgroundImage: "url(" + whyChooseImg + ")"
                             }}></div>

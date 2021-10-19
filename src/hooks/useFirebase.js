@@ -12,18 +12,22 @@ const useFirebase = () => {
     const googleProvider = new GoogleAuthProvider();
     const githubProvider = new GithubAuthProvider();
 
+    // Registration Using Email and Password
     const SignUpUsingEmailPassword = (email, password) => {
         return createUserWithEmailAndPassword(auth, email, password);
     }
 
+    // Login Using Email and Password
     const logInUsingEmailPassword = (email, password) => {
         return signInWithEmailAndPassword(auth, email, password);
     }
 
+    // Login Using Google
     const logInUsingGoogle = () => {
         return signInWithPopup(auth, googleProvider);
     }
 
+    // Login Using Github
     const logInUsingGithub = () => {
         return signInWithPopup(auth, githubProvider);
     }
