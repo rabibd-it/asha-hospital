@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Outdoor Patient (OPD)",
+    "description": "An OPD is a hospital department that happens to be the first contact point between the patient and the hospital staff. A patient who visits the hospital for the first time directly goes to OPD and then the OPD makes a decision as to which department a patient should go.",
+    "image": "https://i.ibb.co/17YKHs2/OPD-Patient.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Indoor Patient (IPD)",
+    "description": "Indoor services are for those patients whose cases are serious, and hence, hospitalised. Generally, hospital is categorised in two ways. One is on the basis of services, other on the basis of region.",
+    "image": "https://i.ibb.co/9ZSw2GJ/Indoor-Patient.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Pathology",
+    "description": "Pathology is the medical specialty concerned with the study of the nature and causes of diseases. It underpins every aspect of medicine, from diagnostic testing and monitoring of chronic diseases to cutting-edge genetic research and blood transfusion technologies.",
+    "image": "https://i.ibb.co/x8rTZjH/pathology.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Radiology",
+    "description": "Radiology is a branch of medicine that uses imaging technology to diagnose and treat disease. Radiology may be divided into two different areas, diagnostic radiology and interventional radiology. Doctors who specialize in radiology are called radiologists.",
+    "image": "https://i.ibb.co/7Y0v3NW/Radiology-Imaging-1.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Pharmacy",
+    "description": "Pharmacy is the clinical health science that links medical science with chemistry and it is charged with the discovery, production, disposal, safe and effective use, and control of medications and drugs.",
+    "image": "https://i.ibb.co/jD7J5j9/Pharmacy.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Ambulance",
+    "description": "An ambulance is a medically equipped vehicle which transports patients to treatment facilities, such as hospitals. Typically, out-of-hospital medical care is provided to the patient. Ambulances are used to respond to medical emergencies by emergency medical services. For this purpose, they are generally equipped with flashing warning lights and sirens. They can rapidly transport paramedics and other first responders to the scene, carry equipment for administering emergency care and transport patients to hospital or other definitive care. Most ambulances use a design based on vans or pick-up trucks. Others take the form of motorcycles, cars, buses, aircraft and boats.",
+    "image": "https://i.ibb.co/4ttJ67n/Ambulance.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Blood Bank",
+    "description": "A blood bank is a place where blood is collected and stored before it is used for transfusions. Blood banking takes place in the lab. This is to make sure that donated blood and blood products are safe before they are used.",
+    "image": "https://i.ibb.co/VTwb4dD/Blood-Bank.jpg"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Outdoor Patient (OPD)",
+    "description": "An OPD is a hospital department that happens to be the first contact point between the patient and the hospital staff.",
+    "image": "https://i.ibb.co/X4xs3gW/1.png"
+  },
+  {
+    "id": 2,
+    "title": "Indoor Patient (IPD)",
+    "description": "Indoor services are for those patients whose cases are serious, and hence, hospitalised. Generally, hospital is categorised in two ways. One is on the basis of services, other on the basis of region.",
+    "image": "https://i.ibb.co/YWWDPKK/2.png"
+  },
+  {
+    "id": 3,
+    "title": "Pharmacy",
+    "description": "Pharmacy is the clinical health science that links medical science with chemistry and it is charged with the discovery, production, disposal, safe and effective use, and control of medications and drugs.",
+    "image": "https://i.ibb.co/PhB4ksb/3.png"
+  }
+]

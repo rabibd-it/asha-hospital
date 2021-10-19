@@ -1,0 +1,262 @@
+/* Global CSS */
+.section {
+  padding: 50px 0;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.section-separator {
+  position: relative;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.section-separator:before {
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 100px;
+  background: #00b092;
+}
+.section-separator:after {
+  bottom: -5px;
+  content: "";
+  height: 2px;
+  left: 0;
+  margin: 0 auto;
+  right: 0;
+  position: absolute;
+  width: 50px;
+  background: #0070ee;
+}
+.text-regular {
+  color: #00b092 !important;
+}
+.bg-regular {
+  background-color: #00b092 !important;
+}
+/* Slider CSS */
+#slider img {
+  max-height: 500px;
+  width: 100%;
+}
+#slider .carousel-caption {
+  background: hsla(170, 100%, 35%, 0.5);
+  border-radius: 10px;
+  color: #fff;
+  left: 20%;
+  right: 40%;
+  top: 30%;
+  bottom: 30%;
+}
+
+#slider i {
+  background-color: #00b092;
+  padding: 15px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.icon-box {
+  display: flex;
+  align-items: center;
+  border-radius: 0 45px 0;
+  padding: 20px;
+  min-height: 200px;
+}
+.icon-box .icon {
+  width: 30%;
+}
+.icon-box .icon i {
+  font-size: 80px;
+  color: #fff;
+}
+
+.icon-box .details {
+  width: 70%;
+}
+.details p {
+  text-align: justify;
+}
+
+/* About Us Section */
+.about-thumb img {
+  border-radius: 0 80px;
+}
+.about-text p {
+  text-align: justify;
+}
+
+/* Services Box */
+.service-box {
+  margin: 10px 0;
+  background-color: #f8f9fa;
+  position: relative;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+.service-box .service-thumb {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.service-box .service-thumb img {
+  max-height: 250px;
+  width: 100%;
+}
+.service-box .service-thumb .overlay {
+  background-color: rgba(0, 176, 146, 0.5);
+  padding: 10% 0;
+  position: absolute;
+  overflow: hidden;
+  width: 90%;
+  height: 90%;
+  left: 5%;
+  top: 5%;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0, 1);
+  -ms-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+.service-box .service-thumb h4 {
+  text-transform: uppercase;
+  position: relative;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+}
+
+.service-box .service-details {
+  padding: 20px;
+  position: relative;
+}
+.service-box:hover .service-thumb .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.service-box:hover h4 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* Why Choose Us */
+.why-choose-item {
+  padding-bottom: 10px;
+}
+.why-choose-item .icon i {
+  font-size: 70px;
+  color: #fff;
+  background-color: #00b092;
+  padding: 10px;
+}
+.why-choose-cover {
+  background-position: center 10%;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  content: "";
+  bottom: 0;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 48%;
+}
+
+/* Our Doctor */
+.doctor {
+  background-color: #fff;
+  border-radius: 5px;
+  min-height: 380px;
+  margin-bottom: 20px;
+}
+.doctor .doctor-thumb {
+  position: relative;
+  overflow: hidden;
+}
+.doctor .doctor-thumb img {
+  width: 100%;
+  height: 200px;
+}
+.doctor .doctor-overlay {
+  bottom: -100%;
+  position: absolute;
+  text-align: center;
+  -webkit-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+  width: 100%;
+}
+.doctor:hover .doctor-overlay {
+  bottom: 10px;
+}
+.doctor-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.doctor-social li {
+  margin: 5px;
+}
+.doctor-social li a {
+  text-decoration: none;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  font-size: 14px;
+  padding: 5px 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.doctor .doctor-details {
+  padding: 20px 10px;
+}
+.doctor-name {
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/* Counter */
+.counter {
+  border-right: 1px solid #ffffff;
+}
+.counter i {
+  color: #ffffff;
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+.counter p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+.counter .timer {
+  color: #ffffff;
+  font-family: "serif";
+  font-size: 30px;
+  font-weight: 700;
+}
