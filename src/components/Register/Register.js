@@ -3,6 +3,7 @@ import Breadcrumb from '../Shared/Breadcrumb/Breadcrumb';
 import { useForm } from "react-hook-form";
 import useAuth from '../../hooks/useAuth';
 import { useHistory, useLocation } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const Register = () => {
     const [error, setError] = useState('');
@@ -67,6 +68,12 @@ const Register = () => {
                                             <button className="btn btn-primary" type="submit">Submit</button>
                                         </div>
                                     </form>
+                                    <p className="text-center mt-5">
+                                        <span>Already have an account?</span>
+                                        <Link to="/login">
+                                            <span>Sign In</span>
+                                        </Link>
+                                    </p>
                                 </div>
                                 <div className="login-separator"></div>
                                 <div className="card-footer">

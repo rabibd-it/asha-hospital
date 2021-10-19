@@ -18,6 +18,7 @@ import Footer from "./components/Shared/Footer/Footer";
 import Header from "./components/Shared/Header/Header";
 import NotFound from "./components/NotFound/NotFound";
 import AuthProvider from './context/AuthProvider';
+import DoctorDetail from './components/DoctorDetail/DoctorDetail';
 function App() {
   return (
     <AuthProvider>
@@ -32,6 +33,10 @@ function App() {
           <Route path="/doctors">
             <Doctors></Doctors>
           </Route>
+
+          <PrivateRoute path="/doctor/:doctorId">
+            <DoctorDetail></DoctorDetail>
+          </PrivateRoute>
 
           <Route path="/services">
             <Services></Services>

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Doctor = ({ doctor }) => {
-    const { id, name, email, image, department, designation, social } = doctor;
+    const { id, name, email, image, designation, social } = doctor;
     return (
         <div className="col-12 col-md-6 col-lg-3">
             <div className="doctor">
@@ -32,7 +32,7 @@ const Doctor = ({ doctor }) => {
                     <h3 className="doctor-name">{name}</h3>
                     <p>{designation}</p>
                     <div className="text-center">
-                        <Link to="/" className="btn btn-primary">Read More</Link>
+                        <Link to={`/doctor/${id}`} className="btn btn-primary">Read More</Link>
                     </div>
                 </div>
             </div>

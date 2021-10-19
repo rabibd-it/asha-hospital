@@ -1,20 +1,24 @@
 # Asha General Hospital
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Asha General Hospital has all the characteristics of a world-class hospital with wide range of services and specialists, equipments and technology, ambience and service quality.
 
 ## Used of Project
 
 - React
-- React Font Awesome
+- Firebase
+- React Router
+- React Count Up
+- Bootstrap
+- Font Awesome
+- React Hook Form
 - JSON
 - Vanilla CSS
-- React Bootstrap
 
 <!-- PROJECT URL -->
 
 ## Project URL
 
-Website Link: [Edu Mate](https://asha-general-hospital.web.app/)
+Website Link: [Asha General Hospital](https://asha-general-hospital.web.app/)
 Code Link: [Github](https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-rabibd-it)
 
 <!-- CONTACT -->
