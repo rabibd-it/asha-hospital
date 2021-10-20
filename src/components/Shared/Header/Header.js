@@ -8,12 +8,12 @@ import noPhoto from '../../../images/no-photo.jpg';
 const Header = () => {
     const { user, logOut } = useAuth();
     return (
-        <div>
+        <header className="header">
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container">
                     <Link to="/" className="navbar-brand">
                         <img src={logo} height="50" alt={'Asha General Hospital'} title={'Asha General Hospital'} />
-                        <span>Asha Hospital</span>
+                        <span className="text-uppercase">Asha Hospital</span>
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerMain" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -65,7 +65,7 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
-        </div>
+        </header>
     );
 };
 

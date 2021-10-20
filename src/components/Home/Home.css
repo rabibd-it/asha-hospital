@@ -260,3 +260,14 @@
   font-size: 30px;
   font-weight: 700;
 }
+/* Media Query */
+@media only screen and (max-width: 768px) {
+  .icon-box {
+    margin-bottom: 20px;
+  }
+  .counter {
+    border-right:none;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 20px;
+  }
+}
