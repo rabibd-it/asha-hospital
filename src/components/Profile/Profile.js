@@ -30,6 +30,10 @@ const Profile = () => {
                                         <td>{user.email}</td>
                                     </tr>
                                     <tr>
+                                        <th>Phone</th>
+                                        <td>{user.phoneNumber}</td>
+                                    </tr>
+                                    <tr>
                                         <th>Verify</th>
                                         <td>{user.emailVerified ? <span className="btn btn-success">Yes</span> : <span className="btn btn-danger">No</span>}</td>
                                     </tr>
